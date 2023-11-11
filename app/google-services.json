@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "392663822046",
+    "project_id": "diploma-zone-a65c4",
+    "storage_bucket": "diploma-zone-a65c4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:392663822046:android:58491aaaccd1eabe1bdc4f",
+        "android_client_info": {
+          "package_name": "com.rockypatel.diplomazone"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBzqOSHsY9uqbFZAGOXYvvYOWwb7zPUMiI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

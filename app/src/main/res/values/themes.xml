@@ -1,0 +1,16 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.DiplomaZone" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+        <item name="android:colorPrimaryDark">#7a7a7a</item>
+    </style>
+
+    <style name="Theme.DiplomaZone" parent="Base.Theme.DiplomaZone" />
+    <style name="Theme.Splash" parent="Theme.SplashScreen">
+        <item name="windowSplashScreenBackground">#FFFC00</item>
+        <item name="windowSplashScreenAnimatedIcon">@drawable/appicons</item>
+        <item name="postSplashScreenTheme">@style/Base.Theme.DiplomaZone</item>
+    </style>
+
+</resources>

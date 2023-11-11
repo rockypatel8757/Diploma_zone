@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    android:background="#CFCECE"
+
+    android:layout_height="match_parent"
+    tools:context=".ComputerScience">
+
+  <com.google.android.material.appbar.AppBarLayout
+      android:id="@+id/appBarLayout"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:background="#7A7A7A"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/tbcs"
+        app:menu="@menu/mymenu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+  </com.google.android.material.appbar.AppBarLayout>
+
+  <androidx.cardview.widget.CardView
+      android:id="@+id/ibcs"
+      android:layout_width="132dp"
+      android:layout_height="139dp"
+      android:layout_marginStart="29dp"
+      android:layout_marginTop="30dp"
+      android:elevation="40dp"
+      app:cardCornerRadius="15dp"
+      app:cardElevation="20dp"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toBottomOf="@+id/appBarLayout">
+
+    <ImageButton
+        android:id="@+id/ibcs11"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:srcCompat="@drawable/cs" />
+  </androidx.cardview.widget.CardView>
+
+  <androidx.cardview.widget.CardView
+      android:id="@+id/ibcs2"
+      android:layout_width="132dp"
+      android:layout_height="139dp"
+      android:layout_marginTop="30dp"
+      android:layout_marginEnd="29dp"
+      app:cardCornerRadius="15dp"
+      app:cardElevation="20dp"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintTop_toBottomOf="@+id/appBarLayout">
+
+    <ImageButton
+        android:id="@+id/ibcs22"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:srcCompat="@drawable/math" />
+  </androidx.cardview.widget.CardView>
+
+  <androidx.cardview.widget.CardView
+      android:id="@+id/ibcs3"
+      android:layout_width="132dp"
+      android:layout_height="139dp"
+      android:layout_marginStart="29dp"
+      android:layout_marginTop="30dp"
+      app:cardCornerRadius="15dp"
+      app:cardElevation="20dp"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toBottomOf="@+id/ibcs"
+      tools:srcCompat="@drawable/coms">
+
+    <ImageButton
+        android:id="@+id/ibcs33"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:srcCompat="@drawable/coms" />
+  </androidx.cardview.widget.CardView>
+
+  <androidx.cardview.widget.CardView
+      android:id="@+id/ibcs4"
+      android:layout_width="132dp"
+      android:layout_height="139dp"
+      android:layout_marginTop="30dp"
+      android:layout_marginEnd="29dp"
+      app:cardCornerRadius="15dp"
+      app:cardElevation="20dp"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintTop_toBottomOf="@+id/ibcs2">
+
+    <ImageButton
+        android:id="@+id/ibcs44"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:srcCompat="@drawable/it" />
+  </androidx.cardview.widget.CardView>
+
+  <androidx.cardview.widget.CardView
+      android:id="@+id/ibcs5"
+      android:layout_width="132dp"
+      android:layout_height="139dp"
+      android:layout_marginStart="29dp"
+      android:layout_marginTop="30dp"
+      app:cardCornerRadius="15dp"
+      app:cardElevation="20dp"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toBottomOf="@+id/ibcs3">
+
+    <ImageButton
+        android:id="@+id/ibcs55"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:srcCompat="@drawable/ac" />
+  </androidx.cardview.widget.CardView>
+
+  <androidx.cardview.widget.CardView
+      android:id="@+id/ibcs6"
+      android:layout_width="132dp"
+      android:layout_height="139dp"
+      android:layout_marginTop="30dp"
+      android:layout_marginEnd="29dp"
+      app:cardCornerRadius="15dp"
+      app:cardElevation="20dp"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintTop_toBottomOf="@+id/ibcs4">
+
+    <ImageButton
+        android:id="@+id/ibcs66"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:srcCompat="@drawable/ap" />
+  </androidx.cardview.widget.CardView>
+
+  <com.google.android.gms.ads.AdView
+      android:id="@+id/adView1"
+      android:layout_width="wrap_content"
+      android:layout_height="50dp"
+      ads:adSize="BANNER"
+      ads:adUnitId="@string/banner_id2"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
